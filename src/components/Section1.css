@@ -99,3 +99,19 @@ p {
 	background-color: #003f66; /* Background color on hover */
 	color: #fff; /* Text color on hover */
 }
+/* Section1.css */
+
+/* Section1.css */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.section1 {
+	animation: fadeIn 1s ease-in-out; /* Apply the animation */
+}

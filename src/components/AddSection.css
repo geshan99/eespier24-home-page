@@ -6,7 +6,7 @@
 .centered-heading {
 	font-size: 45px;
 	margin-bottom: 20px;
-	margin-top: 80px !important;
+	margin-top: 60px !important;
 }
 
 .centered-photo {
@@ -22,4 +22,18 @@
 	h2 {
 		font-size: 25px;
 	}
+}
+/* AddSection.css */
+
+/* AddSection.css */
+
+.add-section {
+	opacity: 0;
+	transform: translateY(50px); /* Change translateY value to -50px */
+	transition: opacity 1s ease, transform 1.5s ease;
+}
+
+.add-section.visible {
+	opacity: 1;
+	transform: translateY(0);
 }
