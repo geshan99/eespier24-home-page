@@ -1,0 +1,32 @@
+/* HorizontalScrollingImages.css */
+.horizontal-scroll-container {
+	width: 70%;
+	overflow: hidden;
+	/* background-color: red; */
+}
+
+.horizontal-scroll-content {
+	display: flex;
+	animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.horizontal-scroll-content img {
+	width: 100px; /* Adjust the width of the images as needed */
+	height: auto;
+	margin-right: 40px; /* Adjust the spacing between images as needed */
+}
+
+@media (max-width: 426px) {
+	.horizontal-scroll-container {
+		width: 100%;
+	}
+}

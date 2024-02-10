@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+
+.custom-button-login,
+.custom-button-reg {
+	background-color: transparent;
+	border: 1px solid #003f66; /* Default outline color */
+	color: #003f66; /* Default text color */
+	padding: 4px 16px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-right: 20px;
+	border-radius: 5px;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 500;
+}
+
+.custom-button-login,
+.custom-button-reg {
+	margin-bottom: 0; /* Remove default margin-bottom */
+}
+.nav-bar-link {
+	color: #003f66 !important;
+	font-weight: 900 !important;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+/* Apply bottom margin only for small and medium screens */
+@media screen and (max-width: 768px) {
+	.custom-button-login,
+	.custom-button-reg {
+		margin-bottom: 10px; /* Apply bottom margin for small and medium screens */
+	}
+}
+
+.custom-button-login:hover,
+.custom-button-reg:hover {
+	background-color: #003f66; /* Background color on hover */
+	color: #fff; /* Text color on hover */
+}

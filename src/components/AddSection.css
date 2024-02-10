@@ -1,0 +1,25 @@
+.add-section {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.centered-heading {
+	font-size: 45px;
+	margin-bottom: 20px;
+	margin-top: 80px !important;
+}
+
+.centered-photo {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 426px) {
+	.centered-heading {
+		font-size: 24px !important;
+		margin-bottom: 15px !important;
+	}
+	h2 {
+		font-size: 25px;
+	}
+}
