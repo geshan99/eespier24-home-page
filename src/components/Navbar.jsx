@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import eesocLogo from "../assets/EESoc_logo 1.svg";
 import "../components/Navbar.css";
+// import { RiDashboard2Line } from "react-icons/ri";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function NavBar({ scrollToSection, section1Ref, section2Ref, section4Ref }) {
 	return (
@@ -42,8 +44,14 @@ function NavBar({ scrollToSection, section1Ref, section2Ref, section4Ref }) {
 						</Nav.Link>
 					</Nav>
 					<Nav className="ml-auto">
-						<button className="custom-button-login">Login</button>
-						<button className="custom-button-reg">Register</button>
+						<button className="custom-button-login">
+							<a
+								href="https://portal.eespire.eesoc.lk/"
+								style={{ textDecoration: "none" }}
+							>
+								Portal <FaArrowUpRightFromSquare />
+							</a>
+						</button>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
