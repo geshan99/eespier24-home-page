@@ -4,7 +4,7 @@ import eespireLogo from "../assets/EE-spire-logo 1.svg";
 
 function Section1() {
 	return (
-		<div className="section1">
+		<div className="section1" id="section1">
 			<div className="left">
 				<img src={eespireLogo} alt="Logo" className="logo" />
 			</div>

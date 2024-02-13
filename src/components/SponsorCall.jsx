@@ -4,7 +4,7 @@ import "../components/SponsorCall.css"; // Import CSS for styling
 
 function SponsorCall() {
 	return (
-		<div className="sponsor-call">
+		<div className="sponsor-call" id="section5">
 			<div className="left-section">
 				<h2 className="left-header">Call for Sponsors</h2>
 				<p className="left-paragraph">

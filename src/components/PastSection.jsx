@@ -7,7 +7,7 @@ import gal3 from "../assets/Gallery3.png";
 
 function PastSection() {
 	return (
-		<div className="past-section">
+		<div className="past-section" id="section4">
 			<h2 className="heading">Recaps from the Past</h2>
 			<Carousel>
 				<Carousel.Item>

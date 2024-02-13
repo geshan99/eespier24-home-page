@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import eesocLogo from "../assets/EESoc_logo 1.svg";
 import "../components/Navbar.css";
 
-function NavBar() {
+function NavBar({ scrollToSection, section1Ref, section2Ref, section4Ref }) {
 	return (
 		<Navbar expand="lg" className="bg-body-tertiary">
 			<Container>
@@ -23,16 +23,21 @@ function NavBar() {
 				>
 					<Nav className="mr-auto">
 						<Nav.Link
-							href="#home"
 							className="nav-bar-link"
-							// style={{ color: "red" }}
+							onClick={() => scrollToSection(section1Ref)}
 						>
 							About
 						</Nav.Link>
-						<Nav.Link href="#link" className="nav-bar-link">
+						<Nav.Link
+							className="nav-bar-link"
+							onClick={() => scrollToSection(section2Ref)}
+						>
 							Sponsors
 						</Nav.Link>
-						<Nav.Link href="#link" className="nav-bar-link">
+						<Nav.Link
+							className="nav-bar-link"
+							onClick={() => scrollToSection(section4Ref)}
+						>
 							Gallery
 						</Nav.Link>
 					</Nav>

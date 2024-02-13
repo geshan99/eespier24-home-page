@@ -30,6 +30,7 @@ function AddSection() {
 		<div
 			className={`add-section ${isVisible ? "visible" : ""}`}
 			ref={addSectionRef}
+			id="section2"
 		>
 			<h2 className="centered-heading">Meet our Sponsors</h2>
 			<Carousel>

@@ -5,7 +5,7 @@ import HorizontalScrollingImages from "./HorizontalScrollingImages";
 
 function Testimonials() {
 	return (
-		<div className="testimonials">
+		<div className="testimonials" id="section3">
 			<h2 className="heading">You’re in good company</h2>
 			<p className="paragraph">
 				The ranks of our visionary sponsors and contribute to the growth
