@@ -1,4 +1,5 @@
 import AddSection from "./components/AddSection";
+import Footer from "./components/Footer";
 import MovingImages from "./components/MovingImages";
 import NavBar from "./components/Navbar";
 import Partners from "./components/Partners";
@@ -51,11 +52,12 @@ function App() {
 			<div ref={section4Ref}>
 				<PastSection />
 			</div>
-			<div ref={section5Ref}>
-				<SponsorCall />
-			</div>
+
 			<div ref={section2Ref}>
 				<Partners />
+			</div>
+			<div>
+				<Footer />
 			</div>
 		</>
 	);

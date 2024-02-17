@@ -15,27 +15,24 @@ function Partners() {
 				<div className="row-1">
 					<div className="platinum-container">
 						<h2 className="heading-sub">Platinum Partner</h2>
-						<img src={ipd} />
+						<img src={sagt} />
 					</div>
 					<div className="gold-container">
 						<h2 className="heading-sub">Gold Partners</h2>
 						<img src={sagt} />
-						<img src={tpl} />
+						<img src={sagt} />
 					</div>
 				</div>
 				<div className="row-2">
 					<div className="silver-container">
 						<h2 className="heading-sub">Silver Partner</h2>
-						<img src={mit} />
+						<img src={sagt} />
 					</div>
 					<div className="bronze-container">
 						<h2 className="heading-sub">Bronze Partners</h2>
-						<img src={ceylex} />
-						<img src={smartzi} />
-						<img
-							src={rma}
-							style={{ height: "90px", width: "auto" }}
-						/>
+						<img src={sagt} />
+						<img src={sagt} />
+						<img src={sagt} />
 					</div>
 				</div>
 			</div>

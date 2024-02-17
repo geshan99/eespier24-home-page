@@ -47,7 +47,10 @@ function NavBar({ scrollToSection, section1Ref, section2Ref, section4Ref }) {
 						<button className="custom-button-login">
 							<a
 								href="https://portal.eespire.eesoc.lk/"
-								style={{ textDecoration: "none" }}
+								style={{
+									textDecoration: "none",
+									color: "#003f66",
+								}}
 							>
 								Portal <FaArrowUpRightFromSquare />
 							</a>

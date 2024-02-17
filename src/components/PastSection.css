@@ -1,8 +1,9 @@
 .past-section {
 	text-align: center;
+	margin-top: 80px;
 }
 
 .heading {
 	font-size: 24px;
-	margin-bottom: 20px;
+	margin-bottom: 40px !important;
 }

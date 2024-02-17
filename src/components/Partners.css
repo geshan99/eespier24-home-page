@@ -4,36 +4,22 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 426px) {
-	.heading {
-		font-size: 24px;
-		margin-bottom: 15px;
-	}
-	h2 {
-		font-size: 25px;
-	}
-}
-@media screen and (max-width: 1024) {
-	.row-1,
-	.row-2 {
-		justify-content: center;
-	}
-}
-
 .row-1,
 .row-2 {
 	display: flex;
 	justify-content: space-evenly; /* Changed to center alignment for responsiveness */
 	flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+	align-items: baseline;
 }
 
 .heading-sub {
 	text-align: center;
+	margin: 5px !important;
 }
 
 .partners-container {
 	margin: 80px auto; /* Center the container horizontally */
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .row-2 {
@@ -57,4 +43,92 @@
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	padding: 16px;
 	border-radius: 14px;
+}
+.platinum-container,
+.gold-container,
+.silver-container,
+.bronze-container {
+	text-align: center;
+	box-shadow: 0 4px 8px 0 #c0c0c0, 0 6px 20px 0 #c0c0c0;
+
+	border-radius: 8px;
+	padding-top: 20px;
+}
+.bronze-container,
+.gold-container {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	.platinum-container,
+	.gold-container,
+	.silver-container,
+	.bronze-container {
+		width: 70%;
+
+		text-align: center;
+		box-shadow: 0 4px 8px 0 #c0c0c0, 0 6px 20px 0 #c0c0c0;
+
+		border-radius: 8px;
+		padding-top: 20px;
+	}
+	.bronze-container,
+	.gold-container {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 426px) {
+	.heading {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.row-1,
+	.row-2 {
+		justify-content: center;
+	}
+	.platinum-container img,
+	.gold-container img,
+	.silver-container img,
+	.bronze-container img {
+		/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+		padding: 0px !important;
+		border-radius: 14px;
+	}
+	.bronze-container {
+		text-align: center;
+	}
+	.partners-container {
+		margin-top: 40px !important;
+	}
+	.heading-sub {
+		font-size: larger;
+	}
+	.platinum-container,
+	.gold-container,
+	.silver-container,
+	.bronze-container {
+		width: 90%;
+		text-align: center;
+		box-shadow: 0 4px 8px 0 #c0c0c0, 0 6px 20px 0 #c0c0c0;
+
+		border-radius: 8px;
+		padding-top: 20px;
+	}
+	.bronze-container,
+	.gold-container {
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.platinum-container,
+	.gold-container,
+	.silver-container,
+	.bronze-container {
+		height: 300px;
+		width: 600px;
+		vertical-align: bottom;
+	}
 }

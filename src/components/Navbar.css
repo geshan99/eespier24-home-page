@@ -13,6 +13,7 @@
 	border-radius: 5px;
 	font-family: "Nunito Sans", sans-serif;
 	font-weight: 500;
+	max-width: 100px;
 }
 
 .custom-button-login,
@@ -36,5 +37,8 @@
 .custom-button-login:hover,
 .custom-button-reg:hover {
 	background-color: #003f66; /* Background color on hover */
-	color: #fff; /* Text color on hover */
+	color: #fff !important; /* Text color on hover */
+}
+a:hover {
+	color: #fff !important;
 }
