@@ -37,8 +37,8 @@
 .custom-button-login:hover,
 .custom-button-reg:hover {
 	background-color: #003f66; /* Background color on hover */
-	color: #fff !important; /* Text color on hover */
+	/* Text color on hover */
 }
-a:hover {
+.custom-button-login a:hover {
 	color: #fff !important;
 }

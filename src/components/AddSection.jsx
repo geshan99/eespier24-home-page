@@ -2,6 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import "./AddSection.css"; // Import CSS for styling
 import ad from "../assets/Advertisements.jpg";
+import ipd from "../assets/adds/ipd.jpg";
+import sagt from "../assets/adds/sagt.jpg";
 
 function AddSection() {
 	const addSectionRef = useRef(null);
@@ -33,14 +35,18 @@ function AddSection() {
 			id="section2"
 		>
 			<h2 className="centered-heading">Meet our Sponsors</h2>
-			<Carousel>
+			<Carousel controls>
 				<Carousel.Item>
-					<img className="d-block w-100" src={ad} alt="First slide" />
+					<img
+						className="d-block w-100"
+						src={ipd}
+						alt="First slide"
+					/>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src={ad}
+						src={sagt}
 						alt="Second slide"
 					/>
 				</Carousel.Item>{" "}

@@ -17,37 +17,7 @@ function HorizontalScrollingImages() {
 				<img src={dimo} alt="Image 2" />
 				<img src={hayleys} alt="Image 3" />
 				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={ascii} alt="Image 1" />
-				<img src={dimo} alt="Image 2" />
-				<img src={hayleys} alt="Image 3" />
-				<img src={nikini} alt="Image 3" />
-				<img src={hayleys} alt="Image 3" />
+
 				{/* Add more images as needed */}
 			</div>
 		</div>

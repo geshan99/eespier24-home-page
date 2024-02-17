@@ -50,9 +50,15 @@
 .bronze-container {
 	text-align: center;
 	box-shadow: 0 4px 8px 0 #c0c0c0, 0 6px 20px 0 #c0c0c0;
-
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	border-radius: 8px;
 	padding-top: 20px;
+}
+.platinum-container:hover,
+.gold-container:hover,
+.silver-container:hover,
+.bronze-container:hover {
+	transform: translateY(-5px); /* Move the container up slightly on hover */
 }
 .bronze-container,
 .gold-container {
