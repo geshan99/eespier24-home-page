@@ -2,7 +2,6 @@
 import React from "react";
 import "./HorizontalScrollingImages.css";
 import dimo from "../assets/DIMO.png";
-import hayleys from "../assets/Hayleys.png";
 import ipd from "../assets/partneships/ipd.jpg";
 import tpl from "../assets/partneships/tpl.jpg";
 import sagt from "../assets/partneships/sagt.jpg";
@@ -21,7 +20,6 @@ function HorizontalScrollingImages() {
     return (
         <div className="horizontal-scroll-container">
             <div className="horizontal-scroll-content">
-                <img src={hayleys} alt="Hayleys Logo" />
                 <img src={dimo} alt="DIMO Logo" />
                 <img src={ipd} alt="IPD Logo" />
                 <img src={tpl} alt="TPL Logo" />
@@ -36,7 +34,7 @@ function HorizontalScrollingImages() {
                 <img src={nestle} alt="Nestle Logo" />
                 <img src={dns} alt="DNS Logo" />
                 <img src={fentons} alt="Fentons Logo" />
-                <img src={hayleys} alt="Hayleys Logo" />
+
                 <img src={dimo} alt="DIMO Logo" />
                 <img src={ipd} alt="IPD Logo" />
                 <img src={tpl} alt="TPL Logo" />
@@ -51,7 +49,7 @@ function HorizontalScrollingImages() {
                 <img src={nestle} alt="Nestle Logo" />
                 <img src={dns} alt="DNS Logo" />
                 <img src={fentons} alt="Fentons Logo" />
-                <img src={hayleys} alt="Hayleys Logo" />
+
                 <img src={dimo} alt="DIMO Logo" />
                 <img src={ipd} alt="IPD Logo" />
                 <img src={tpl} alt="TPL Logo" />
@@ -66,7 +64,7 @@ function HorizontalScrollingImages() {
                 <img src={nestle} alt="Nestle Logo" />
                 <img src={dns} alt="DNS Logo" />
                 <img src={fentons} alt="Fentons Logo" />
-                <img src={hayleys} alt="Hayleys Logo" />
+
                 <img src={dimo} alt="DIMO Logo" />
                 <img src={ipd} alt="IPD Logo" />
                 <img src={tpl} alt="TPL Logo" />

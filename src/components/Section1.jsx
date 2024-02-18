@@ -1,10 +1,12 @@
 import React from "react";
 import "./Section1.css"; // Import CSS for styling
 import eespireLogo from "../assets/EE-spire-logo 1.svg";
+// import bg from "../assets/backgrounds/bg.jpg";
 
 function Section1() {
     return (
         <div className="section1" id="section1">
+            {/* <img className="bg-img" src={bg}></img> */}
             <div className="left">
                 <img src={eespireLogo} alt="Logo" className="logo" />
             </div>

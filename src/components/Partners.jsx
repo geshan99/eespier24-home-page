@@ -14,22 +14,30 @@ function Partners() {
                 <h2 className="heading">Our Partners</h2>
                 <div className="row-1">
                     <div className="platinum-container">
-                        <h2 className="heading-sub">Platinum Partner</h2>
+                        <h2 className="heading-sub pt-color">
+                            Platinum Partner
+                        </h2>
                         <img src={ipd} />
                     </div>
                     <div className="gold-container">
-                        <h2 className="heading-sub">Gold Partners</h2>
+                        <h2 className="heading-sub gold-color">
+                            Gold Partners
+                        </h2>
                         <img src={sagt} />
                         <img src={tpl} />
                     </div>
                 </div>
                 <div className="row-2">
                     <div className="silver-container">
-                        <h2 className="heading-sub">Silver Partner</h2>
+                        <h2 className="heading-sub silver-color">
+                            Silver Partner
+                        </h2>
                         <img src={mit} />
                     </div>
                     <div className="bronze-container">
-                        <h2 className="heading-sub">Bronze Partners</h2>
+                        <h2 className="heading-sub bronze-color">
+                            Bronze Partners
+                        </h2>
                         <img src={rma} />
                         <img src={ceylex} />
                         <img src={smartzi} />

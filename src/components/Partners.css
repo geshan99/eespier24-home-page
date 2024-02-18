@@ -1,9 +1,22 @@
+
+
 .heading {
 	font-size: 45px;
 	margin-top: 60px;
 	text-align: center;
 }
-
+.pt-color{
+	color: #6e6464;
+}
+.gold-color{
+	color: #C5994B;
+}
+.silver-color{
+	color: #BDBDBD;
+}
+.bronze-color{
+	color: #CD7F5F;
+}
 .row-1,
 .row-2 {
 	display: flex;

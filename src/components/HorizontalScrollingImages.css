@@ -1,32 +1,39 @@
-/* HorizontalScrollingImages.css */
 .horizontal-scroll-container {
 	width: 70%;
 	overflow: hidden;
-	/* background-color: red; */
-}
-
-.horizontal-scroll-content {
+	/* background-color: red; */ /* Optional background color */
+  }
+  
+  .horizontal-scroll-content {
 	display: flex;
-	animation: scroll 20s linear infinite;
-}
-
-@keyframes scroll {
+	animation: scroll 60s linear infinite; /* Adjusted duration */
+  }
+  
+  @keyframes scroll {
 	0% {
-		transform: translateX(0%);
+	  transform: translateX(0%);
+	}
+	50% {
+	  transform: translateX(-300%);
 	}
 	100% {
-		transform: translateX(-100%);
+	  transform: translateX(0%);
 	}
-}
-
-.horizontal-scroll-content img {
-	width: 100px; /* Adjust the width of the images as needed */
+  }
+  
+  .horizontal-scroll-content img {
+	width: 100px; /* Adjust as needed */
 	height: auto;
-	margin-right: 40px; /* Adjust the spacing between images as needed */
-}
-
-@media (max-width: 426px) {
+	margin-right: 40px; /* Adjust as needed */
+  }
+  
+  @media (max-width: 426px) {
 	.horizontal-scroll-container {
-		width: 100%;
+	  width: 100%;
 	}
-}
+	.horizontal-scroll-content img {
+	  width: 60px; /* Adjust image width for smaller screens */
+	  margin-right: 20px; /* Adjust spacing for smaller screens */
+	}
+  }
+  
