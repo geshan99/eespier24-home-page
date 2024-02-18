@@ -7,6 +7,7 @@
 	justify-content: center;
 	margin-left: 15px;
 	text-align: justify;
+	
 
 	/* For responsive layout */
 	@media (min-width: 768px) {
